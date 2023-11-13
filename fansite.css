@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    background-color:#08C5D1 ;
+}
+
+.banniere{
+    width: 100%;
+}
+
+#titre{
+    text-align: center;
+    color: rgba(255, 217, 0, 0.769);
+}
+
+header{
+    background-color: #00353f;
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.liens{  
+    color: gold;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    position: relative;
+    transition: 330ms ease-in-out; 
+    font-size: 26px                       
+}
+
+.liens:hover{
+      transform: scale(1.5);      
+}
+
+.liens:hover{
+    transform: scale(1.5);      
+}
+
+#image_fond{
+    background: url(image/ono.png) ; 
+    margin: 0;
+    padding: 0 ;
+    text-align: center;
+    color: gold;
+   
+    
+}
+
+.table{
+    position: relative;
+    left: 78px;
+    border-collapse: collapse;
+    padding: 30px;
+    
+}
+
+td , tr , caption{
+    text-align: center;
+    font-size: 25.cm;
+    border: 2px solid rgba(255, 217, 0, 0.699);
+    border-collapse: collapse;
+    margin: auto;
+    -webkit-text-stroke-width: 0,7px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.tittle{
+    text-align: center;
+    color: black;
+    font-family: "agbalumo", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;   
+}
+.formulaire{
+    text-align: center;
+    margin: 20px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;   
+}
+
+#insta{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #00353f;
+    padding: 20px;
+}
+
+.formulaire{
+    border: 2px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #00353f;
+    color: gold;
+    font-size: 17px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+#actu{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+.img_actu{
+    width: 280px;
+}
+
+.bouton{
+    text-decoration: none; 
+    color: black;
+    background: #00343f5b;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 1.3rem;
+    font-weight: 700;
+    z-index: 0;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.bouton::before{
+    content:"" ;
+    position: absolute;
+    background: gold;
+    width: 200px;
+    height: 60px;
+    border-radius: 50% 50% 0% 0%;
+    transition: all .5s;
+    z-index: -1;
+    top: 60px;  
+}
+
+.bouton:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+.milieu{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.fansite{
+    display: flex;
+    justify-content: center;
+    
+}
+.liens2{  
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    position: relative;
+    transition: 330ms ease-in-out; 
+    font-size: 26px                       
+}
+
+.liens2:hover{
+      transform: scale(1.5);      
+}
